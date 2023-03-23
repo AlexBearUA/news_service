@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <link
+      href="https://fonts.google.com/share?selection.family=Manrope:wght@400;700%7CPoppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-menu">
+          <nav class="nav">
+            <a class="header__logo" href="">News</a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link nav__link--current" href="">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Favorite</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="">Read</a></li>
+            </ul>
+          </nav>
+
+          <form class="search-form">
+            <input
+              class="search-form__input"
+              type="text"
+              placeholder="Search |"
+            />
+            <button class="search-form__button" type="submit">
+              <svg class="search-form__icon">
+                <use href="./images/icons.svg#icon-bx_search"></use>
+              </svg>
+            </button>
+          </form>
+
+          <div class="theme-switcher">Light/Dark</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="news">
+      <div class="container">
+        <div class="news-navigation">
+          <ul class="news__filtr-menu">
+            <li class="news__filtr-menu-item">
+              <button
+                class="news__filtr-menu-button news__filtr-menu-button--active"
+              >
+                Admin
+              </button>
+            </li>
+            <li class="news__filtr-menu-item">
+              <button class="news__filtr-menu-button">Arts</button>
+            </li>
+            <li class="news__filtr-menu-item">
+              <button class="news__filtr-menu-button">Automobiles</button>
+            </li>
+            <li class="news__filtr-menu-item">
+              <button class="news__filtr-menu-button">Books</button>
+            </li>
+            <li class="news__filtr-menu-item">
+              <button class="news__filtr-menu-button">Briefing</button>
+            </li>
+            <li class="news__filtr-menu-item">
+              <button class="news__filtr-menu-button">Business</button>
+            </li>
+            <li class="news__filtr-menu-item">
+              <button class="news__filtr-menu-button">Others</button>
+            </li>
+          </ul>
+          <div class="date-picker">Date Picker</div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>
